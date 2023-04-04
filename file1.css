@@ -1,0 +1,40 @@
+body {
+    background-color:azure;
+}
+
+h1 {
+    color :white;
+    text-align: center;
+}
+
+p,li {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.head{
+    font-size: 20px;
+}
+
+#header {
+    height: 40px;
+    width: 100%;
+    background-color: #ffcccc;
+    position: fixed;
+    z-index: 1;
+  }
+
+  .stuff {
+    display: inline-block;
+    margin-top: 6px;
+    margin-left: 55px;
+    width :75%;
+    height : 1000px;
+  }
+
+  .left {
+    height: 1000px;
+    width: 45px;
+    background-color: #e0eeee;
+    float: left;
+    position: fixed;
+  }
