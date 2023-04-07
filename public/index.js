@@ -1,4 +1,4 @@
-var apiUrl = "https://y1gxvl8ow1.execute-api.eu-north-1.amazonaws.com/Dev";
+var apiUrl = "https://onpsyrfkduimim7ihnjv2nuwza0gxzil.lambda-url.us-east-1.on.aws/";
 fetch(apiUrl)
    .then(response => response.json())
    .then(data =>{
